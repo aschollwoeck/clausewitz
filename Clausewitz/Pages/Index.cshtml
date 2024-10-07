@@ -4,6 +4,117 @@
     ViewData["Title"] = "Home page";
 }
 
+<h1>Opportunity xyz</h1>
+
+<section>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="steps">
+                <progress id="progress" value=0 max=100></progress>
+                <div class="step-item">
+                    <button class="step-button text-center" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        I
+                    </button>
+                    <div class="step-title">
+                        Identify
+                    </div>
+                </div>
+                <div class="step-item">
+                    <button class="step-button text-center collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Q
+                    </button>
+                    <div class="step-title">
+                        Qualify
+                    </div>
+                </div>
+                <div class="step-item">
+                    <button class="step-button text-center" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        D
+                    </button>
+                    <div class="step-title">
+                        Develop
+                    </div>
+                </div>
+                <div class="step-item">
+                    <button class="step-button text-center" type="button" data-toggle="collapse"
+                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        P
+                    </button>
+                    <div class="step-title">
+                        Proposal
+                    </div>
+                </div>
+                <div class="step-item">
+                    <button class="step-button text-center" type="button" data-toggle="collapse"
+                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        N
+                    </button>
+                    <div class="step-title">
+                        Negotiate
+                    </div>
+                </div>
+                <div class="step-item">
+                    <button class="step-button text-center" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        C
+                    </button>
+                    <div class="step-title">
+                        Closing
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-identify-tab" data-bs-toggle="tab" data-bs-target="#nav-identify" type="button" role="tab" aria-controls="nav-identify" aria-selected="true">Identify</button>
+        <button class="nav-link" id="nav-qualify-tab" data-bs-toggle="tab" data-bs-target="#nav-qualify" type="button" role="tab" aria-controls="nav-qualify" aria-selected="false">Qualify</button>
+        <button class="nav-link" id="nav-develop-tab" data-bs-toggle="tab" data-bs-target="#nav-develop" type="button" role="tab" aria-controls="nav-develop" aria-selected="false">Develop</button>
+        <button class="nav-link" id="nav-proposal-tab" data-bs-toggle="tab" data-bs-target="#nav-proposal" type="button" role="tab" aria-controls="nav-proposal" aria-selected="false">Proposal</button>
+        <button class="nav-link" id="nav-negotiate-tab" data-bs-toggle="tab" data-bs-target="#nav-negotiate" type="button" role="tab" aria-controls="nav-negotiate" aria-selected="false">Negotiate</button>
+        <button class="nav-link" id="nav-closing-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Closing</button>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+
+    <div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+
+        <div class="mb-3">
+            <label for="offerSubmissionDate" class="form-label">Offer submission date</label>
+            <input class="form-control" type="date" id="offerSubmissionDate">
+        </div>
+    </div>
+
+    <div class="tab-pane fade show active" id="nav-identify" role="tabpanel" aria-labelledby="nav-identify-tab">
+        identify
+    </div>
+    <div class="tab-pane fade" id="nav-qualify" role="tabpanel" aria-labelledby="nav-qualify-tab">
+        qualify
+    </div>
+    <div class="tab-pane fade" id="nav-develop" role="tabpanel" aria-labelledby="nav-develop-tab">
+        develop
+    </div>
+    <div class="tab-pane fade" id="nav-proposal" role="tabpanel" aria-labelledby="nav-proposal-tab">
+        proposal
+    </div>
+    <div class="tab-pane fade" id="nav-negotiate" role="tabpanel" aria-labelledby="nav-negotiate-tab">
+        negotiate
+    </div>
+    <div class="tab-pane fade" id="nav-closing" role="tabpanel" aria-labelledby="nav-closing-tab">
+        closing
+    </div>
+</div>
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
