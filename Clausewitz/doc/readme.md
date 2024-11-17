@@ -55,13 +55,16 @@ On supplier side many things need to happen.
 For projects the milestone Bid / No bid needs to happen.
 After a successful Bid decision 
 
-#### Information on RFP
+#### Elements on Tender / RFP / RFQ
 The most important information of a tender / RFP needs to be extracted from the document to be as efficient as possible.
 Such information could be on terms & conditions, requested scope and services, delivery times, etc.
 Those information is valuable for a first estimation on how much effort, validation and clarification is required.
 
 A summary should be extracted, grouped by following categories. The summary should contain relevant information in RFP on given group 
 or if no specific information is included for a group in RFP it should state that as well.
+
+#### Risk management
+- Risk register
 
 #### Stakeholder
 Stakeholders are people who represents roles and functions in a company who are required to make a project or opportunity successfull.
