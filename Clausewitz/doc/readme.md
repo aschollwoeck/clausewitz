@@ -41,6 +41,16 @@ Additionally, templates also need to be readily available which can be filled in
 Usually every phase has a different set of documents which need to be available.
 Also they are required to be stored and available in different version for each milestone.
 
+In general, there are documents which occure in every bid.
+Then there are documents which might contain additional information but are customer specific.
+
+Because a lot of documents contain information which can be automatically extracted and used to assist in the bid process, the documents need to be slightry structured.
+It happens that there are multiple documents of the same category or a document is separated into multiple.
+
+Attachement T: Tender
+Attachement RFP: Request for Proposal
+
+
 #### Activities
 Every phase consist of certain activities which need to be carried out.
 Activities shall be available in CRM system as well to pay tribute to 360° view on customer as well as of specific deals.
