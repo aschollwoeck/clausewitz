@@ -33,6 +33,7 @@ For each phase there are certain things to do and look out for.
 It shall be possible to provide information and possible next steps depending on the phase of a project.
 
 #### Milestones / Decisions
+- "Documentation" and "Version control" of each Milestone and Decision
 
 
 #### Documents
@@ -75,6 +76,9 @@ or if no specific information is included for a group in RFP it should state tha
 
 #### Risk management
 - Risk register
+
+#### Buying center
+TBD
 
 #### Stakeholder
 Stakeholders are people who represents roles and functions in a company who are required to make a project or opportunity successfull.
